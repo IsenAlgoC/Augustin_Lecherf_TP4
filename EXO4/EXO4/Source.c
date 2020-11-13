@@ -11,6 +11,20 @@ int main() {
 	scanf_s("%s", mot, _countof(mot));
 	longueur = strlen(mot);
 
+	for (int i = 0; i < longueur; i++) {
+		if ((mot[i] == 'é') || (mot[i] == 'è')) {
+			mot[i] = 'e';			
+		}
+		if (mot[i] == 'à') {
+			mot[i] = 'a';
+		}
+		if (mot[i] == 'ù') {
+			mot[i] = 'u';
+		}
+		mot[i] = tolower(mot[i]);
+	}
+	
+
 	for (int i = 0; i < (longueur / 2); ++i) {
 		if (mot[i] == mot[longueur - i - 1]) {
 			a = a + 1;
