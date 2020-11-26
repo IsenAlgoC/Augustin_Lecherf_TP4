@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EXO5", "EXO5\EXO5.vcxproj", "{55190807-4C6D-4A84-BDE2-BBB92DCC241E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Debug|x64.ActiveCfg = Debug|x64
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Debug|x64.Build.0 = Debug|x64
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Debug|x86.ActiveCfg = Debug|Win32
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Debug|x86.Build.0 = Debug|Win32
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Release|x64.ActiveCfg = Release|x64
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Release|x64.Build.0 = Release|x64
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Release|x86.ActiveCfg = Release|Win32
+		{55190807-4C6D-4A84-BDE2-BBB92DCC241E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E99B8604-F333-4BB6-A8DE-9AB93FA85CA5}
+	EndGlobalSection
+EndGlobal
